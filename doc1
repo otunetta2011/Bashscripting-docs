@@ -30,6 +30,12 @@ echo "hello $yourname   nice to meet you"
 wq!
 
 
+#! /bin/bash
+read -p "what is your name" yourname
+echo "hello $yourname   nice to meet you"
+wq
+
+
 -Not that u need to give permission to make ur script executable.
 #chmod +x myscript.txt
 # ./mycript.txt(to run it)
