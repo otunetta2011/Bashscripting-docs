@@ -21,6 +21,15 @@ file1.txt(name of the file)
 #! /bin/bash
 echo Hello this is my script
 wq!
+
+
+#! /bin/bash
+echo "what is your name"
+read -p yourname
+echo "hello $yourname   nice to meet you"
+wq!
+
+
 -Not that u need to give permission to make ur script executable.
 #chmod +x myscript.txt
 # ./mycript.txt(to run it)
