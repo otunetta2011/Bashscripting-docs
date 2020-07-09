@@ -1,0 +1,29 @@
+#./file1.txt
+./(location of the file)
+file1.txt(name of the file)
+
+#Which(helps u find th folder of a command)
+# which ls
+# which pwd
+# which python
+#which clear
+#/bin/bash
+
+/bin/ls
+/bin/pwd
+*To creat and run a script
+-Scripts lines are written inc-langauge,shell language,python.
+-To write a script
+-firtst creat a file
+-vi myscript.txt
+-note the program to use inorder to interprete and run your 
+#!(shell band), then path of the program to use.
+#! /bin/bash
+echo Hello this is my script
+wq!
+-Not that u need to give permission to make ur script executable.
+#chmod +x myscript.txt
+# ./mycript.txt(to run it)
+ 
+#mv myscript.txt myscript.sh(to move myscript form .txt to .sh)
+vi myscript.sh
